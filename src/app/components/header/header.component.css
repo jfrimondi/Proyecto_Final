@@ -1,10 +1,21 @@
 div{
 
-background-color: #a1b5cb;
+background-color: #7290e3;
+height: 78px;
+border-radius: 10px;
 
 }
 
 app-social-networks { 
     float: right;
+    margin-top: 22px;
+    margin-right: 18px;
+}
+
+
+app-logo-ap {
+float: left;
+margin-top: 0;
+
 
 }
