@@ -1,11 +1,28 @@
-div{
+.header{
 
-background-color: #7290e3;
-height: 78px;
-border-radius: 10px;
+background-image: url("../../../assets/paisaje banner 6.jpg");
+height: 400px;
+
+background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
 
 }
 
+.profileImageDiv {
+    width: 200px;
+    height: 180px;    /* Crear Z index o margenes negativos para mover el div */
+    border-radius: 90px;
+    margin-left: 30px;
+
+}
+
+.profileImage {
+    width: 200px;
+    border-radius: 90px;
+    margin-left: 30px;
+
+}
 app-social-networks { 
     float: right;
     margin-top: 22px;
